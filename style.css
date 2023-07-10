@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.header-first-part{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    width: 500px;
+    margin: 0px auto;
+}
+.header-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 32px 0px;
+
+}
+.header-button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+}
+.header-flower{
+    width: 435px;
+    height: 600px;
+    margin: 50px 150px 0px 0px;
+}
+/* header part finish */
+.hot-deal{
+    width: 100%;
+    height: 420px;
+    /* border-radius: 8px; */
+    background: rgba(229, 84, 115, 0.05);
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hot-deal-first-part{
+    width:100%;
+    /* margin: 0px auto; */
+}
+.hot-deal-heading{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+
+}
+.hot-deal-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px 32px;
+    /* width: ; */
+    text-align: center;
+
+}
+.hot-deal-button{
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    /* margin: 0px auto; */
+    text-align: center;
+
+}
+.hot-deal-img{
+    width: 218px;
+    height: 320px;
+}
+/* forth section finish */
+/* fifth section start */
+.instagram{
+    text-align: center;
+
+}
+.instagram-heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-flower-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.instagram-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    margin: 24px auto;
+}
+.instagram-flower{
+    width: 250px;
+    height: 250px;
+}
