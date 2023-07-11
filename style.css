@@ -4,6 +4,28 @@
     font-family: 'Lato', sans-serif;
     /* font-family: 'Open Sans', sans-serif; */
 }
+/* nav section start */
+nav{
+    position: sticky;
+    top: 0;
+}
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+    background-color:#E55473;
+    padding: 30px;
+}
+.nav-section li{
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF;
+}
+.nav-section li:hover{
+    text-decoration: underline;
+}
+/* nav section finish */
+
 .header{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -122,8 +144,7 @@
     box-sizing: border-box;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-bottom: 50px;
-   
+    margin-bottom: 50px;  
 }
 .all-para{
     text-align: center;
@@ -132,6 +153,7 @@
 .all-div{
     text-align: center;
 }
+/* third/optional section finish */
 /* forth section start */
 .hot-deal{
     width: 100%;
