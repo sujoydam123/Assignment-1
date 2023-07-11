@@ -11,15 +11,22 @@ nav{
 }
 .nav-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
     background-color:#E55473;
-    padding: 30px;
+    padding: 30px 10px;
 }
 .nav-section li{
     list-style-type: none;
     font-size: 30px;
     font-weight: 700;
     color: #FFF;
+    border-right: 2px solid white;
+    padding-right: 50px;
+    /* border-right: none; */
+}
+nav > div > li:last-child{
+    border-right: none;
 }
 .nav-section li:hover{
     text-decoration: underline;
