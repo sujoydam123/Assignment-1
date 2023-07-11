@@ -23,7 +23,6 @@ nav{
     color: #FFF;
     border-right: 2px solid white;
     padding-right: 50px;
-    /* border-right: none; */
 }
 nav > div > li:last-child{
     border-right: none;
